@@ -37,6 +37,18 @@
   color: #ee4d30;
 }
 
+.bg-qw-soft-primary-1 {
+  background-color: #FEECDD;
+}
+
+.bg-qw-soft-primary-2 {
+  background-color: #FFF8F3;
+}
+
+.bg-qw-soft-primary-3 {
+  background-color: #ff896b;
+}
+
 .vh-70 {
   min-height: 70vh !important;
 }
@@ -110,4 +122,12 @@
   font-weight: 800;
 }
 
-/* END UTILS*/
+.icon-soft-primary-1 {
+  width: 100px;
+  height: 100px;
+  background: #FEECDD;
+  box-shadow: 0px 4px 15px rgba(190, 190, 190, 0.1);
+  border-radius: 20px;
+}
+
+/* END UTILS*//*# sourceMappingURL=customize-component.css.map */

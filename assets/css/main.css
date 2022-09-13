@@ -185,26 +185,26 @@ body {
   background-color: #ff896b;
 }
 
-#commitment {
+#commitment, #uh-different {
   padding-top: 100px;
 }
 @media screen and (min-width: 992px) {
-  #commitment {
+  #commitment, #uh-different {
     padding: 120px 7rem;
   }
 }
-#commitment h2 {
+#commitment h2, #uh-different h2 {
   font-size: 43px;
   font-weight: 800;
 }
-#commitment p {
+#commitment p, #uh-different p {
   width: 80%;
 }
-#commitment .icon-wrapper {
+#commitment .icon-wrapper, #uh-different .icon-wrapper {
   width: 100px;
   height: 100px;
 }
-#commitment .icon-wrapper img {
+#commitment .icon-wrapper img, #uh-different .icon-wrapper img {
   width: 100%;
 }
 
@@ -406,21 +406,21 @@ body {
 
 /* END HOMEPAGE CSS */
 /* VHP BANNER */
-#vhp-banner {
+#vhp-banner, #uh-banner {
   padding-bottom: 100px;
 }
 @media screen and (min-width: 992px) {
-  #vhp-banner {
+  #vhp-banner, #uh-banner {
     padding: 120px 7rem;
   }
 }
-#vhp-banner h1 {
+#vhp-banner h1, #uh-banner h1 {
   font-weight: 800;
 }
-#vhp-banner p {
+#vhp-banner p, #uh-banner p {
   font-size: 1rem;
 }
-#vhp-banner .image-wrapper {
+#vhp-banner .image-wrapper, #uh-banner .image-wrapper {
   min-height: 453px;
   width: 453px;
   border-radius: 2em;
@@ -434,6 +434,66 @@ body {
 }
 
 /* END VHP BANNER */
+/* UH SECTION */
+#uh-broadband {
+  padding-bottom: 100px;
+}
+#uh-broadband .broadband-banner {
+  height: auto;
+  border-radius: 30px;
+  background-color: #FEECDD;
+  padding: 6rem;
+}
+#uh-broadband .broadband-banner .broadband-text {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+}
+#uh-broadband .broadband-banner .broadband-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(190, 190, 190, 0.1);
+  border-radius: 20px;
+}
+
+#uh-product {
+  padding-bottom: 100px;
+}
+#uh-product #product-container {
+  padding: 0 6rem;
+}
+
+#uh-featured-card {
+  min-height: 542px;
+  padding-top: 100px;
+}
+@media screen and (min-width: 992px) {
+  #uh-featured-card {
+    padding: 120px 7rem;
+  }
+}
+#uh-featured-card h2 {
+  font-size: 43px;
+  font-weight: 800;
+}
+#uh-featured-card p {
+  font-size: 1rem;
+}
+#uh-featured-card .card {
+  min-height: 523px;
+}
+
+/* END UH SECTION */
 #contact-ft {
   background-color: #ee4d30;
 }
@@ -492,4 +552,4 @@ footer #end-footer .social-icon {
 }
 footer #end-footer .social-icon img {
   width: 100%;
-}
+}/*# sourceMappingURL=main.css.map */

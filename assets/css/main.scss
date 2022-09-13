@@ -50,7 +50,7 @@ body {
 	}
 }
 
-#broadband {
+#broadband{
 	padding: 10rem 0;
 	.broadband-banner {
 		height: auto;
@@ -200,7 +200,7 @@ body {
 	}
 }
 
-#commitment {
+#commitment, #uh-different {
 	padding-top: 100px;
 
 	@media screen and (min-width: 992px) {
@@ -427,7 +427,7 @@ body {
 /* END HOMEPAGE CSS */ 
 
 /* VHP BANNER */
-#vhp-banner {
+#vhp-banner, #uh-banner {
 	padding-bottom: 100px;
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
@@ -457,6 +457,71 @@ body {
 
 
 /* END VHP BANNER */ 
+
+/* UH SECTION */
+#uh-broadband {
+	padding-bottom: 100px;
+	.broadband-banner {
+		height: auto;
+		border-radius: 30px;
+		background-color: $soft-primary-1;
+		padding: 6rem;
+
+		.broadband-text {
+			display: flex;
+			justify-items: center;
+			align-items: center;
+			text-align: center;
+			font-size: 1.5rem;
+			height: 100%;
+			width: 100%;
+		}
+		
+		.broadband-icon {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			padding: 10px;
+			width: 100px;
+			height: 100px;
+			background: #FFFFFF;
+			box-shadow: 0px 4px 15px rgba(190, 190, 190, 0.1);
+			border-radius: 20px;
+		}
+	}
+}
+
+#uh-product {
+	padding-bottom: 100px;
+	#product-container {
+		padding: 0 6rem;
+	}
+}
+
+#uh-featured-card {
+	min-height: 542px;
+	padding-top: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
+	h2 {
+		font-size: 43px;
+		font-weight: 800;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+	.card {
+		min-height: 523px;
+	}
+}
+
+
+/* END UH SECTION */
 
 #contact-ft {
 	background-color: $primary-color;
