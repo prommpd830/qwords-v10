@@ -1,0 +1,131 @@
+@import 'colors';
+
+// Button
+.btn-signup {
+	background-color: $primary-color;
+	color: #fff;
+	padding-left: 18px;
+	padding-right: 18px;
+
+	&:hover {
+		background-color: #fff;
+		color: $primary-color;
+	}
+}
+
+.btn-cta {
+	background-color: $primary-color;
+	font-weight: 700;
+	color: #fff;
+
+	&:hover {
+		background-color: $primary-hover;
+		border-color: $primary-color;
+		color: #fff;
+	}
+}
+
+.btn-lg-cta {
+	height: 65px;
+	background-color: $primary-color;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #fff;
+
+	&:hover {
+		background-color: $primary-hover;
+		border-color: $primary-color;
+		color: #fff;
+	}
+}
+
+// Color
+.text-qw-primary {
+	color: $primary-color;
+}
+
+// Min-height
+.vh-70 {
+	min-height: 70vh !important;
+}
+
+// Card
+.card-discount {
+	padding: .5em;
+	text-align: left;
+	background-color: $soft-primary-1;
+	border-radius: 8px;
+	position: relative;
+
+
+	&:after {
+		content: url(../images/shapes/promo.png);
+		position: absolute;
+		right: 1rem;
+		top: 0;
+		width: 2rem;
+		height: 46px;
+	}
+	.tld {
+		font-size: 1rem;
+		font-weight: 700;
+	}
+
+	.price {
+		font-size: 1em;
+	}
+}
+
+
+// Nav Tabs
+.nav-custom-qw {
+	.nav {
+		border-bottom: 1px solid #d9d9d9;
+	}
+
+	.nav-link.active {
+		background-color: transparent !important;
+		color: $primary-color;
+		font-weight: 700;
+		border-bottom: 2px solid $primary-color;
+		border-radius: 0;
+	}
+
+	.nav-link {
+		color: $black-color;
+		font-weight: 600;
+	}
+
+	.btn-order-tabs {
+		height: 50px;
+		font-size: 1rem;
+		font-weight: 700;
+		border-radius: 8px;
+		color: $primary-color;
+		border: 1px solid $primary-color;
+
+		&:hover {
+			background-color: $primary-color;
+			color: #fff;
+		}
+	}
+}
+
+
+/* UTILS */
+.w-200px {
+	width: 200px !important;
+}
+
+.nav-brand-custom {
+	position: relative;
+	@media screen and (min-width: 992px) {
+		position: absolute;
+	}
+}
+
+.heading-section {
+	font-size: 2.688rem;
+	font-weight: 800;
+}
+/* END UTILS*/
