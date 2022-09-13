@@ -44,6 +44,18 @@
 	color: $primary-color;
 }
 
+.bg-qw-soft-primary-1 {
+	background-color: $soft-primary-1;
+}
+
+.bg-qw-soft-primary-2 {
+	background-color: $soft-primary-2;
+}
+
+.bg-qw-soft-primary-3 {
+	background-color: $soft-primary-3;
+}
+
 // Min-height
 .vh-70 {
 	min-height: 70vh !important;
@@ -151,6 +163,14 @@
 	font-weight: 800;
 }
 
+.icon-soft-primary-1 {
+	width: 100px;
+	height: 100px;
+	background: $soft-primary-1;
+	box-shadow: 0px 4px 15px rgba(190, 190, 190, 0.1);
+	border-radius: 20px;
+}
+/* END UTILS*/
 .rp-heading-small {
 	font-size: 1rem;
 	font-weight: 800;
