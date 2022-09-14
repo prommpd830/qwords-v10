@@ -427,7 +427,7 @@ body {
 /* END HOMEPAGE CSS */ 
 
 /* VHP BANNER */
-#vhp-banner, #vhp2-banner {
+#vhp-banner, #vhp2-banner, #uh-banner {
 	padding-bottom: 100px;
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
@@ -463,8 +463,8 @@ body {
 }
 /* END VHP WEBHOSTING */ 
 /* VHP BENEFIT */
-#vhp2-benefit {
-	padding-bottom: 100px;
+#vhp2-benefit, #vhp-benefit-hosting {
+	padding: 100px 0;
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
 	}
@@ -530,7 +530,7 @@ body {
 }
 
 #vhp-migrasi-hosting {
-	padding-bottom: 100px;
+	padding: 100px 0;
 
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
@@ -577,9 +577,6 @@ body {
 
 #uh-product {
 	padding-bottom: 100px;
-	#product-container {
-		padding: 0 6rem;
-	}
 }
 
 #uh-featured-card {
