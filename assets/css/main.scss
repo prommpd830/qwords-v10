@@ -443,7 +443,13 @@ body {
 
 	.image-wrapper {
 		min-height: 453px;
-		width: 453px;
+		width: auto;
+		
+		@media screen and (min-width: 992px) {
+			min-height: 453px;
+			width: 453px;
+		}
+
 		border-radius: 2em;
 		background-color: #a0a0a0;
 	}
@@ -483,6 +489,7 @@ body {
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
 	}
+
 	background-color: $soft-primary-1;
 
 	.card-benefit {
