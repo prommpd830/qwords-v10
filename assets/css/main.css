@@ -422,9 +422,15 @@ body {
 }
 #vhp-banner .image-wrapper, #uh-banner .image-wrapper {
   min-height: 453px;
-  width: 453px;
+  width: auto;
   border-radius: 2em;
   background-color: #a0a0a0;
+}
+@media screen and (min-width: 992px) {
+  #vhp-banner .image-wrapper, #uh-banner .image-wrapper {
+    min-height: 453px;
+    width: 453px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -643,4 +649,4 @@ footer #end-footer .social-icon {
 }
 footer #end-footer .social-icon img {
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}

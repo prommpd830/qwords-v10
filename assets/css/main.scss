@@ -443,7 +443,13 @@ body {
 
 	.image-wrapper {
 		min-height: 453px;
-		width: 453px;
+		width: auto;
+		
+		@media screen and (min-width: 992px) {
+			min-height: 453px;
+			width: 453px;
+		}
+
 		border-radius: 2em;
 		background-color: #a0a0a0;
 	}
@@ -462,6 +468,128 @@ body {
 	@media screen and (min-width: 992px) {
 		padding: 120px 7rem;
 	}
+
+	background-color: $soft-primary-1;
+
+	.card-benefit {
+		height: 300px;
+		background-color: #fff;
+		border-radius: 2em;
+		padding: 1em;
+		overflow: hidden;
+
+		.icon-placeholder {
+			width: 100px;
+			height: 100px;
+			background-color: $soft-primary-1;
+			border-radius: 1em;
+		}
+
+		.benefit-description {
+			max-height: 100px;
+			overflow-y: scroll;
+			&::-webkit-scrollbar {
+				border: none;
+				background-color: transparent;
+			} /* webkit browsers(safari, chrome) */
+			scrollbar-color: #404040b3 transparent;
+		}
+	}
+}
+
+#vhp-qna {
+	padding-bottom: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
+	.accordion-item {
+		border: 1px solid #d9d9d9 !important;
+		margin-bottom: 1rem;
+		border-radius: 1em;
+
+		.accordion-button {
+			border-radius: 1em;
+			padding: 1.5em;
+			font-weight: 800;
+			border: none;
+
+			&:focus{
+				box-shadow: none;
+			}
+		}
+	}
+
+	.accordion-button:not(.collapsed) {
+		color: $black-color;
+		background-color: transparent;
+		color: $black-color;
+		// border: none
+	}
+}
+
+#vhp-migrasi-hosting {
+	padding-bottom: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+	 background-color: $soft-primary-1;
+
+}
+
+/* END VHP BANNER */
+
+/* UH SECTION */
+#uh-broadband {
+	padding-bottom: 100px;
+	.broadband-banner {
+		height: auto;
+		border-radius: 30px;
+		background-color: $soft-primary-1;
+		padding: 6rem;
+
+		.broadband-text {
+			display: flex;
+			justify-items: center;
+			align-items: center;
+			text-align: center;
+			font-size: 1.5rem;
+			height: 100%;
+			width: 100%;
+		}
+		
+		.broadband-icon {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			padding: 10px;
+			width: 100px;
+			height: 100px;
+			background: #FFFFFF;
+			box-shadow: 0px 4px 15px rgba(190, 190, 190, 0.1);
+			border-radius: 20px;
+		}
+	}
+}
+
+#uh-product {
+	padding-bottom: 100px;
+	#product-container {
+		padding: 0 6rem;
+	}
+}
+
+#uh-featured-card {
+	min-height: 542px;
+	padding-top: 100px;
+
+	@media screen and (min-width: 992px) {
+		padding: 120px 7rem;
+	}
+
 	
 	h2 {
 		font-size: 43px;
