@@ -441,6 +441,51 @@ body {
   }
 }
 
+@media screen and (min-width: 992px) {
+  #vhp-webhosting-table {
+    padding: 120px 7rem;
+  }
+}
+#vhp-webhosting-table .table-striped > tbody > tr:nth-of-type(even) > * {
+  --bs-table-accent-bg: #FFFBF9;
+}
+#vhp-webhosting-table .table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: white;
+}
+#vhp-webhosting-table .border-radius-top-col {
+  border-radius: 20px 20px 0 0;
+}
+#vhp-webhosting-table .heading-col {
+  text-align: center;
+  color: white;
+}
+#vhp-webhosting-table .border-x-col-primary {
+  box-sizing: border-box;
+  border-spacing: 0;
+  border: 2px solid #ee4d30;
+  border-top: 0;
+  border-bottom: 0;
+}
+#vhp-webhosting-table .border-x-col-blue {
+  box-sizing: border-box;
+  border-spacing: 0;
+  border: 2px solid #0d6efd;
+  border-top: 0;
+  border-bottom: 0;
+}
+#vhp-webhosting-table .border-xb-col-primary {
+  box-sizing: border-box;
+  border: 2px solid #ee4d30;
+  border-radius: 0 0 20px 20px;
+  border-top: 0;
+}
+#vhp-webhosting-table .border-xb-col-blue {
+  box-sizing: border-box;
+  border: 2px solid #0d6efd;
+  border-radius: 0 0 20px 20px;
+  border-top: 0;
+}
+
 /* END VHP WEBHOSTING */
 /* VHP BENEFIT */
 #vhp2-benefit, #vhp-benefit-hosting {
