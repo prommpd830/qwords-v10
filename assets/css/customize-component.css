@@ -37,6 +37,14 @@
   color: #ee4d30;
 }
 
+.bg-soft-blue {
+  background-color: #E0EBFF !important;
+}
+
+.bg-qw-primary {
+  background-color: #ee4d30 !important;
+}
+
 .bg-qw-soft-primary-1 {
   background-color: #FEECDD;
 }
